@@ -1,0 +1,3 @@
+[submodule "in-context-ralm"]
+	path = in-context-ralm
+	url = git@github.com:AI21Labs/in-context-ralm.git
