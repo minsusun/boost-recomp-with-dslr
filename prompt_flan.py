@@ -18,8 +18,8 @@ def main():
     args = argparse.parse_args()
     print(args)
 
-    model = T5ForConditionalGeneration.from_pretrained("google/flan-ul2", torch_dtype=torch.bfloat16, device_map="auto")
-    tokenizer = AutoTokenizer.from_pretrained("google/flan-ul2")
+    model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-small", torch_dtype=torch.bfloat16, device_map="auto")
+    tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
 
     print(">> loaded the model")
     input_df = pd.read_csv(args.input_data_csv_file)
