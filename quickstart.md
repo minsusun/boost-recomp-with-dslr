@@ -1,5 +1,17 @@
 # Quick Start
 
+## Environment Configuration
+
+- WSL Ubuntu 22.04
+- Python 3.9
+- CUDA 12.6
+
+```shell
+pip install -r requirements.txt
+```
+
+(Dumped list of packages I used to `requirements.txt` but due to other specs it may differ on each system)
+
 ## Data Preparation
 
 Prepare data from the original author of RECOMP
